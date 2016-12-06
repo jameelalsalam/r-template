@@ -1,4 +1,5 @@
 # r-template
+
 This is my personal R project template. I plan to copy-paste it when starting new projects. Features of the template include:
 
 1)  Directory structure
@@ -14,25 +15,32 @@ This is my personal R project template. I plan to copy-paste it when starting ne
 11) Resources
 
 
-**Folder structure:**
+## Folder structure:
 
 /R : All R code
 /data : input data direct from the data provider. *read-only*
-/data
+/Rdata : intermediate results *read-write, but don't depend*
+/tests : test that funs work. test that data matches expectations.
+/output : figures, charts, docs, pdfs, html, etc *write-only*
 
-**Files**
+
+## Files
+
 main.R -- a sort of workflow guide to the project, or run to run the whole thing
 setup.R -- load packages, clear workspace, etc
 funs.R -- the place to put general functions for the project
+read_xx.R -- functions to read input data
+proc_xx.R -- functions to process the data as needed
+analysis.R -- perform exploratory data analysis
+
+## Style Guide:
 
 
-**Style Guide:**
+### Path construction:
 
-
-**Path construction:**
 All paths should be constructed based on the 
 
-**Resources:**
+### Resources:
 
 Using Git with R: http://happygitwithr.com/new-github-first.html
 Fixing the path mess with Rmarkdown
@@ -42,7 +50,7 @@ Hadley books:
 - advanced R
 - ggplot2
 
-**Cheatsheets:**
+### Cheatsheets:
 
 dplyr/tidyr:
 ggplot2:
