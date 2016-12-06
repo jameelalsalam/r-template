@@ -11,5 +11,7 @@ This is my personal R project template. I plan to copy-paste it when starting ne
 8)  Rmarkdown/bookdown/Rstudio Notebooks
 9)  Accessing paths
 10) Style guide
+11) Resources
+
 
 
