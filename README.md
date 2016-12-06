@@ -14,21 +14,42 @@ This is my personal R project template. I plan to copy-paste it when starting ne
 11) Resources
 
 
-*Folder structure:*
+**Folder structure:**
 
 /R : All R code
-/rawdata : input data direct from the data provider
+/data : input data direct from the data provider. *read-only*
 /data
 
-*Style Guide:*
+**Files**
+main.R -- a sort of workflow guide to the project, or run to run the whole thing
+setup.R -- load packages, clear workspace, etc
+funs.R -- the place to put general functions for the project
 
 
-*Path construction:*
+**Style Guide:**
 
 
-*Resources:*
+**Path construction:**
+All paths should be constructed based on the 
+
+**Resources:**
 
 Using Git with R: http://happygitwithr.com/new-github-first.html
+Fixing the path mess with Rmarkdown
+Writing tests with testthat
+Hadley books:
+- r4ds
+- advanced R
+- ggplot2
+
+**Cheatsheets:**
+
+dplyr/tidyr:
+ggplot2:
+rmarkdown:
+git:
+bash:
+testthat:
 
 
 
