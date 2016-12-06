@@ -14,20 +14,19 @@ This is my personal R project template. I plan to copy-paste it when starting ne
 11) Resources
 
 
-
-Folder structure:
+*Folder structure:*
 
 /R : All R code
 /rawdata : input data direct from the data provider
 /data
 
-Style Guide:
+*Style Guide:*
 
 
-Path construction:
+*Path construction:*
 
 
-Resources:
+*Resources:*
 
 Using Git with R: http://happygitwithr.com/new-github-first.html
 
