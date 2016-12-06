@@ -33,12 +33,15 @@ read_xx.R -- functions to read input data
 proc_xx.R -- functions to process the data as needed
 analysis.R -- perform exploratory data analysis
 
+
 ## Style Guide:
+
 
 
 ### Path construction:
 
 All paths should be constructed based on the 
+
 
 ### Resources:
 
