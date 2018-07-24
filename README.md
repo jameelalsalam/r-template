@@ -25,11 +25,13 @@ Features of the template include:
 
 ## Folder structure:
 
-/R : All R code
-/data : input data direct from the data provider. *read-only*
-/Rdata : intermediate results *read-write, but don't depend*
+/R : R functions code
+/scripts : script code
+/data-raw : input data direct from the data provider. *read-only*
+/data : intermediate results *read-write, but don't depend*
 /tests : test that funs work. test that data matches expectations.
 /output : figures, charts, docs, pdfs, html, etc *write-only*
+
 
 
 ## Files
